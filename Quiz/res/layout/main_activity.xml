@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff00f0"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_exit"
+        style="android:buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:background="@android:drawable/btn_default"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/button_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_exit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:background="@android:drawable/btn_default"
+        android:text="Credits" />
+
+    <Button
+        android:id="@+id/button_rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_credits"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/btn_default"
+        android:text="Rules" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_rules"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:background="@android:drawable/btn_default"
+        android:text="Play" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/huawei_icon" />
+
+</RelativeLayout>
